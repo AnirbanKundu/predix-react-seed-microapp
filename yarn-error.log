@@ -1,0 +1,67 @@
+Arguments: 
+  /usr/local/Cellar/node/9.8.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/heroku/bin:/Users/anirbankundu/maven/apache-maven-3.3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.8.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+      "name": "jps-react-predix-ui-starter",
+      "version": "1.0.0",
+      "main": "index.js",
+      "license": "MIT",
+      "private": true,
+      "scripts": {
+        "start": "node server.js"
+      },
+      "dependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^0.28.10",
+        "express": "^4.16.2",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-router-dom": "^4.2.2",
+        "predix-ui": "^0.0.11",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.7",
+        "node-sass-import-once": "^1.2.0",
+        "react-virtualized": "^9.18.5",
+        "chance": "^1.0.13",
+        "webpack": "^4.1.1",
+        "style-loader": "^0.20.3",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "html-webpack-plugin": "^3.0.6",
+        "html-webpack-template": "^6.1.0",
+        "webpack-dev-middleware": "^3.0.1",
+        "file-loader": "^1.1.11"
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  
+
+Trace: 
+  Error: Found incompatible module
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at checkOne (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:62444:11)
+      at Object.check (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:62463:5)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:22803:73
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
+      at <anonymous>
